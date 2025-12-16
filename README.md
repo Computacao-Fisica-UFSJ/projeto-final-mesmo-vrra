@@ -46,15 +46,13 @@ O seguinte diagrama foi feito em Fritzing 1.0.6 e mostra como deve ficar a monta
 ### Vídeo do projeto
 https://github.com/user-attachments/assets/a251e545-da5d-4b4c-8b30-afe1a2608bfb
 
-
-
 ## Problemas encontrados
 Os problemas foram basicamente os mesmos do primeiro. O adicional foi a célula de carga:
-### Célula de carga
-- É necessário calibrar a célula de carga para que ela registre o peso correto imposto nela, e essa calibragem pode levar um tempo considerável da montagem do projeto.
 ### Botão
 - É necessário fazer o *debounce* no código para evitar alternância muito rápida entre 0 e 1, impedindo um valor exato para ser exato.
 ### Tela LCD
 - A qualidade dos cabos e a conexão deles na tela podem acabar fazendo com que lixo seja transmitido ao invés de um caractere, tornando o projeto inutilizável, sendo necessário desligar e ligar a placa.
+### Motor
+- Talvez só o Arduino não seja suficiente para conseguir ligar o display e o motor juntos; foi necessário por uma fonte externa para ligar os dois e permitir o funcionamento do projeto.
 ## Referências
 - https://www.robocore.net/sensor-robo/celula-de-carga-50kg?srsltid=AfmBOopS0AHtNsg180NE8FBlewqBJEIo9beVb6j75O-aJlPdHVUcDLDd
